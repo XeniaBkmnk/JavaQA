@@ -8,6 +8,8 @@ public class Main {
         Lesson_1.compareNumbers();
         Lesson_1.checkBoolean();
         Lesson_1.positiveOrNegativeNumber();
+        Lesson_1.isNegative();
+        Lesson_1.outputArgument("Cat", 5);
     }
 
 }
