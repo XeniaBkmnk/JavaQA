@@ -29,4 +29,21 @@ public class Lesson_1 {
         }
     }
 
+    public static void compareNumbers() {
+        int a = 46;
+        int b = 0;
+        if (a >= b) {
+            System.out.println("a>=b");
+        } else
+            System.out.println("a<b");
+    }
+
+    public static void checkBoolean() {
+        int a = 11;
+        int b = -15;
+        int sum = a + b;
+        boolean isInRange = sum >= 10 && sum <= 20;
+        System.out.println(isInRange);
+    }
+
 }
