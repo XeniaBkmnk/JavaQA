@@ -7,6 +7,7 @@ public class Main {
         Lesson_1.printColor();
         Lesson_1.compareNumbers();
         Lesson_1.checkBoolean();
+        Lesson_1.positiveOrNegativeNumber();
     }
 
 }
