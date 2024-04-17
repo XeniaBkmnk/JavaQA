@@ -15,6 +15,7 @@ public class Main {
         Lesson_1.fillInArrayDifferentNumber();
         Lesson_1.multiplyNumberArray();
         Lesson_1.createSquareArray();
+        Lesson_1.printArrayOfArgument(5,9);
     }
 
 }
