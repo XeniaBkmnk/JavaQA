@@ -1,5 +1,7 @@
 package src.lesson1;
 
+import java.util.Random;
+
 public class Lesson_1 {
     public static void printThreeWords() {
         System.out.println("Orange");
@@ -83,6 +85,16 @@ public class Lesson_1 {
                 array[i] = 0;
             }
             System.out.print(array[i]);
+        }
+        System.out.println();
+    }
+
+    public static void fillInArrayDifferentNumber() {
+        int[] array = new int[100];
+
+        for (int i = 0; i < array.length; i++) {
+            array[i] = i + 1;
+            System.out.print(array[i] + " ");
         }
     }
 
