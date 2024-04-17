@@ -12,6 +12,7 @@ public class Main {
         Lesson_1.outputArgument("Cat", 5);
         Lesson_1.booleanLeapYear();
         Lesson_1.replaceValue();
+        Lesson_1.fillInArrayDifferentNumber();
     }
 
 }
