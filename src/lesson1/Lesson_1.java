@@ -16,8 +16,7 @@ public class Lesson_1 {
 
         if (x >= 0) {
             System.out.println("Сумма положительная");
-        } else
-            System.out.println("Сумма отрицательная");
+        } else System.out.println("Сумма отрицательная");
     }
 
     public static void printColor() {
@@ -36,8 +35,7 @@ public class Lesson_1 {
         int b = 0;
         if (a >= b) {
             System.out.println("a>=b");
-        } else
-            System.out.println("a<b");
+        } else System.out.println("a<b");
     }
 
     public static void checkBoolean() {
@@ -53,8 +51,7 @@ public class Lesson_1 {
 
         if (a >= 0) {
             System.out.println("Положительное число");
-        } else
-            System.out.println("Отрицательное число");
+        } else System.out.println("Отрицательное число");
     }
 
     public static void isNegative() {
@@ -126,6 +123,16 @@ public class Lesson_1 {
                 System.out.print(array[i][j] + " ");
             }
             System.out.println();
+        }
+    }
+
+    public static void printArrayOfArgument(int initialValue, int len) {
+        int[] array = new int[len];
+        for (int i = 0; i < len; i++) {
+            array[i] = initialValue;
+        }
+        for (int i = 0; i < len; i++) {
+            System.out.print(array[i] + " ");
         }
     }
 
