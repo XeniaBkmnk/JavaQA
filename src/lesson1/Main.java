@@ -14,6 +14,7 @@ public class Main {
         Lesson_1.replaceValue();
         Lesson_1.fillInArrayDifferentNumber();
         Lesson_1.multiplyNumberArray();
+        Lesson_1.createSquareArray();
     }
 
 }
