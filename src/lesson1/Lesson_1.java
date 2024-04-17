@@ -46,4 +46,13 @@ public class Lesson_1 {
         System.out.println(isInRange);
     }
 
+    public static void positiveOrNegativeNumber() {
+        int a = -4;
+
+        if (a>=0){
+            System.out.println("Положительное число");
+        }else
+            System.out.println("Отрицательное число");
+    }
+
 }
