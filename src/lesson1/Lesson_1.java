@@ -12,10 +12,21 @@ public class Lesson_1 {
         int b = -1;
         int x = a + b;
 
-        if (x>=0){
+        if (x >= 0) {
             System.out.println("Сумма положительная");
-        }else
+        } else
             System.out.println("Сумма отрицательная");
+    }
+
+    public static void printColor() {
+        int value = 50;
+        if (value <= 0) {
+            System.out.println("Красный");
+        } else if (value <= 100) {
+            System.out.println("Желтый");
+        } else if (value > 100) {
+            System.out.println("Зеленый");
+        }
     }
 
 }
