@@ -10,6 +10,7 @@ public class Main {
         Lesson_1.positiveOrNegativeNumber();
         Lesson_1.isNegative();
         Lesson_1.outputArgument("Cat", 5);
+        Lesson_1.booleanLeapYear();
     }
 
 }
