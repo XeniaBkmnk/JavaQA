@@ -5,6 +5,8 @@ public class Main {
         Lesson_1.printThreeWords();
         Lesson_1.checkSumSign();
         Lesson_1.printColor();
+        Lesson_1.compareNumbers();
+        Lesson_1.checkBoolean();
     }
 
 }
