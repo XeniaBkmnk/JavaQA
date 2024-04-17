@@ -49,10 +49,23 @@ public class Lesson_1 {
     public static void positiveOrNegativeNumber() {
         int a = -4;
 
-        if (a>=0){
+        if (a >= 0) {
             System.out.println("Положительное число");
-        }else
+        } else
             System.out.println("Отрицательное число");
+    }
+
+    public static void isNegative() {
+        int a = -10;
+
+        boolean isNegative = a < 0;
+        System.out.println(isNegative);
+    }
+
+    public static void outputArgument(String x, int count) {
+        for (int i = 0; i < count; i++) {
+            System.out.println(x);
+        }
     }
 
 }
